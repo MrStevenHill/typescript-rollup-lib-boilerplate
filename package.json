@@ -1,0 +1,36 @@
+{
+  "name": "typescript-lib-boilerplate",
+  "description": "TypeScript Component Library using Ant Design and Rollup",
+  "version": "0.1.0",
+  "main": "dist/lib.js",
+  "module": "dist/lib.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/lib.d.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "rollup -c",
+    "build:watch": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZenInternet/typescript-lib-boilerplate.git"
+  },
+  "author": "Steve Hill",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.7.6",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.67.1",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-typescript2": "^0.18.0",
+    "typescript": "^3.1.6"
+  },
+  "peerDependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  }
+}
