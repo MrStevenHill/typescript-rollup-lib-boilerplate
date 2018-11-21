@@ -1,5 +1,5 @@
 {
-  "name": "typescript-lib-boilerplate",
+  "name": "typescript-rollup-lib-boilerplate",
   "description": "TypeScript Component Library Boilerplate using Rollup",
   "version": "0.1.0",
   "main": "dist/lib.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrStevenHill/typescript-lib-boilerplate.git"
+    "url": "git+https://github.com/MrStevenHill/typescript-rollup-lib-boilerplate.git"
   },
   "author": "Steve Hill",
   "license": "MIT",

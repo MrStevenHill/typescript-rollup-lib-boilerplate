@@ -1,4 +1,4 @@
-# TypeScript Component Library Boilerplate
+# TypeScript Component Library Boilerplate using Rollup
 
 ## Setup
 
