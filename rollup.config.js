@@ -1,5 +1,6 @@
 import typescript from 'rollup-plugin-typescript2'
 import resolve from 'rollup-plugin-node-resolve';
+import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 
 import pkg from './package.json'
 
@@ -21,9 +22,7 @@ export default {
     }),
     typescript({
       typescript: require("typescript")
-    })
-  ],
-  external: [
-    ...Object.keys(pkg.peerDependencies || {})
+    }),
+    peerDepsExternal()
   ]
 }
