@@ -1,7 +1,5 @@
 # TypeScript Component Library Boilerplate
 
-Boilerplate TypeScript Component Library using Rollup.
-
 ## Setup
 
 Fork code, update name, description and respository info in package.json

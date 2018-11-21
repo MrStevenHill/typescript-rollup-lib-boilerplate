@@ -1,6 +1,6 @@
 {
   "name": "typescript-lib-boilerplate",
-  "description": "TypeScript Component Library using Ant Design and Rollup",
+  "description": "TypeScript Component Library Boilerplate using Rollup",
   "version": "0.1.0",
   "main": "dist/lib.js",
   "module": "dist/lib.es.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZenInternet/typescript-lib-boilerplate.git"
+    "url": "git+https://github.com/MrStevenHill/typescript-lib-boilerplate.git"
   },
   "author": "Steve Hill",
   "license": "MIT",
